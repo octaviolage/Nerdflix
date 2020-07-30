@@ -8,22 +8,21 @@ function CadastroCategoria() {
     nome: '',
     descricao: '',
     cor: '',
-  }
+  };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
-
 
   function setValue(chave, valor) {
     setValues({
       ...values,
       [chave]: valor, // nome: 'valor'
-    })
+    });
   }
 
   function handleChange(buffer) {
     setValue(
       buffer.target.getAttribute('name'),
-      buffer.target.value
+      buffer.target.value,
     );
   }
 
@@ -32,14 +31,15 @@ function CadastroCategoria() {
       <h1>Cadastro de Categoria</h1>
 
       <form onSubmit={function handleSubmit(buffer) {
-          buffer.preventDefault();
-          setCategorias([
-            ...categorias,
-            values
-          ]);
+        buffer.preventDefault();
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
 
-          setValues(valoresIniciais)
-      }}>
+        setValues(valoresIniciais);
+      }}
+      >
 
         <FormField
           label="Nome da Categoria"
@@ -69,23 +69,20 @@ function CadastroCategoria() {
           Cadastrar
         </button>
       </form>
-      
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.nome}
-            </li>
-          )
-        })}
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;
