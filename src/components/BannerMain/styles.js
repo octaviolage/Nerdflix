@@ -72,6 +72,7 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+  border-radius: 15px;
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -91,12 +92,13 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
+    border-radius: 15px;
     background: rgba(0,0,0,0.5);
   }
 
   &:after {
     bottom: 0;
-    background: linear-gradient(0deg, #141414 0%, transparent 100%);
+    background: linear-gradient(1deg, #141414 0%, transparent 100%);
   }
 `;
 

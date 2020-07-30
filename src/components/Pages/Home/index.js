@@ -6,40 +6,38 @@ import PageDefault from '../../PageDefault';
 
 function Home() {
   return (
-      <PageDefault>
+    <PageDefault>
 
-        <BannerMain
-          videoTitle={dadosIniciais.categorias[4].videos[0].titulo}
-          url={dadosIniciais.categorias[4].videos[0].url}
-          videoDescription={dadosIniciais.categorias[0].videos[0].videoDescription}
-        />
+      <BannerMain
+        videoTitle={dadosIniciais.categorias[1].videos[5].titulo}
+        url={dadosIniciais.categorias[1].videos[5].url}
+        videoDescription={dadosIniciais.categorias[1].videos[5].videoDescription}
+      />
 
-        <Carousel
-          category={dadosIniciais.categorias[0]}
-        />
+      <Carousel
+        category={dadosIniciais.categorias[0]}
+      />
 
-        <Carousel
-          category={dadosIniciais.categorias[1]}
-        />
+      <Carousel
+        category={dadosIniciais.categorias[1]}
+      />
 
-        <Carousel
-          category={dadosIniciais.categorias[2]}
-        />
+      <Carousel
+        category={dadosIniciais.categorias[2]}
+      />
 
-        <Carousel
-          category={dadosIniciais.categorias[3]}
-        />
+      <Carousel
+        category={dadosIniciais.categorias[3]}
+      />
 
-        <Carousel
-          ignoreFirstVideo
-          category={dadosIniciais.categorias[4]}
-        />
+      <Carousel
+        category={dadosIniciais.categorias[4]}
+      />
 
-        <Carousel
-          category={dadosIniciais.categorias[5]}
-        />
-
-      </PageDefault>
+      <Carousel
+        category={dadosIniciais.categorias[5]}
+      />
+    </PageDefault>
   );
 }
 export default Home;
