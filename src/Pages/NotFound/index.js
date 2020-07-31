@@ -1,5 +1,5 @@
 import React from 'react';
-import PageDefault from '../../PageDefault';
+import PageDefault from '../../components/PageDefault';
 import styled from 'styled-components';
 
 const Canvas = styled.iframe`

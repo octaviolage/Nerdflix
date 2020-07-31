@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import PageDefault from '../../../PageDefault';
-import FormField from '../../../FormField';
-import Button from '../../../Button';
-import Loading from '../../../../assets/img/loading.gif';
+import PageDefault from '../../../components/PageDefault';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import Loading from '../../../assets/img/loading.gif';
+import useForm from '../../../components/hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,22 +11,9 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-
-  function handleChange(buffer) {
-    setValue(
-      buffer.target.getAttribute('name'),
-      buffer.target.value,
-    );
-  }
 
   useEffect(() => {
     const url = 'http://localhost:8080/categorias';
@@ -49,7 +37,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -89,8 +77,8 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}

@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './components/Pages/Home';
-import CadastroVideo from './components/Pages/Cadastro/Video';
-import CadastroCategoria from './components/Pages/Cadastro/Categoria';
-import NotFound from './components/Pages/NotFound';
+import Home from './Pages/Home';
+import CadastroVideo from './Pages/Cadastro/Video';
+import CadastroCategoria from './Pages/Cadastro/Categoria';
+import NotFound from './Pages/NotFound';
 
 ReactDOM.render(
   <BrowserRouter>
