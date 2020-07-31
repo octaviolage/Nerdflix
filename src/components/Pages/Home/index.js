@@ -1,7 +1,7 @@
 import React from 'react';
-import dadosIniciais from '../../../data/dados_iniciais.json'
-import BannerMain from '../../BannerMain'
-import Carousel from '../../Carousel'
+import dadosIniciais from '../../../data/dados_iniciais.json';
+import BannerMain from '../../BannerMain';
+import Carousel from '../../Carousel';
 import PageDefault from '../../PageDefault';
 
 function Home() {

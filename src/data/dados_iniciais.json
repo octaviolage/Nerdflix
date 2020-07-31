@@ -2,7 +2,7 @@
   "categorias": [
     {
       "titulo": "Tecnologia",
-      "cor": "#6BD1FF",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Videos sobre novidades no mundo da tecnologia"
       },
@@ -47,7 +47,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "#00C86F",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Jogos mais esperados de 2020"
       },
@@ -93,7 +93,7 @@
     },
     {
       "titulo": "Filmes e Séries",
-      "cor": "red",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Recomendamos"
       },
@@ -138,7 +138,7 @@
     },
     {
       "titulo": "Programação",
-      "cor": "orange",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Cursos e dicas de programação"
       },
@@ -183,7 +183,7 @@
     },
     {
       "titulo": "Aprender",
-      "cor": "#6b5be2",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Pra melhorar o aprendizado"
       },
@@ -220,7 +220,7 @@
     },
     {
       "titulo": "Diversos",
-      "cor": "#9cd33b",
+      "cor": "#026e00",
       "link_extra": {
         "text": "Curiosidades e descontração"
       },
