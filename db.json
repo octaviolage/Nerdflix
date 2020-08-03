@@ -2,190 +2,184 @@
     "categorias": [
       {
         "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
+        "titulo": "Tecnologia",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+          "text": "Novidades sobre tecnologia no Brasil e no Mundo"
         }
       },
       {
         "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
+        "titulo": "Cultura",
         "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
+          "text": "História e histórias"
         }
       },
       {
         "id": 3,
-        "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
+        "titulo": "Filmes"
       },
       {
         "id": 4,
-        "titulo": "Filmes",
-        "cor": "orange"
+        "titulo": "Games"
       },
       {
         "id": 5,
-        "titulo": "Games",
-        "cor": "red",
-        "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+        "titulo": "Descontração"
       }
     ],
     "videos": [
       {
         "id": 1,
         "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        "titulo": "NOVA TECNOLOGIA QUE VAI MUDAR O MUNDO QUE CONHECEMOS HOJE",
+        "url": "https://www.youtube.com/watch?v=spORBPLpuQ8",
+        "description": "Elon Musk anuncia Neuralink, sensores cerebrais para controlar dispositivos Elon Musk é famoso por trazer o “futurismo” para o presente. Ao lado de carros ..."
       },
       {
         "id": 2,
         "categoriaId": 1,
-        "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        "titulo": "BRASIL tem a tecnologia mais MODERNA DO MUNDO!",
+        "url": "https://www.youtube.com/watch?v=aKAkniQ8qVU"
       },
       {
         "id": 3,
         "categoriaId": 1,
-        "titulo": "Componentização com VanillaJS #AluraMais",
-        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        "titulo": "Perspectivas sobre a ciência e a tecnologia no Brasil | Carlos Henrique de Brito Cruz | TEDxUNIFESP",
+        "url": "https://www.youtube.com/watch?v=a-8Sf1hUtBk"
       },
       {
         "id": 4,
         "categoriaId": 1,
-        "titulo": "Pare de chutar e aprenda a display: inline #01",
-        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        "titulo": "RESUMO CES 2020: NOVIDADES SOBRE O FUTURO DA TECNOLOGIA",
+        "url": "https://www.youtube.com/watch?v=bWdyXhDxFJA"
       },
       {
         "id": 5,
         "categoriaId": 1,
-        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        "titulo": "4 tendências de tecnologia e inovação para 2020",
+        "url": "https://www.youtube.com/watch?v=gkJ14s2LiQg"
       },
       {
         "id": 6,
         "categoriaId": 1,
-        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        "titulo": "Tecnologias Digitais: Oportunidades para o Novo Mundo.",
+        "url": "https://www.youtube.com/watch?v=w5EMYepKLSo"
       },
       {
         "id": 7,
         "categoriaId": 1,
-        "titulo": "Novidades do Angular v9",
-        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        "titulo": "Governo determina que televisores fabricados no Brasil tenham a tecnologia DTV Play",
+        "url": "https://www.youtube.com/watch?v=CAWnpy5DZbs"
       },
       {
         "id": 8,
         "categoriaId": 2,
-        "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-        "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        "titulo": "COMO OS HIERÓGLIFOS FORAM TRADUZIDOS? - PSVVU (Ep. 03)",
+        "url": "https://www.youtube.com/watch?v=aM8kUa01Q4A",
+        "description": "INSCREVA-SE! É DE GRAÇA: https://goo.gl/5hy7QB Camisetas Coisa de Nerd: http://bit.ly/2arsmPr Siga-me no Twitter: http://twitter.com/CdNLeon Este é o ..."
       },
       {
         "id": 9,
         "categoriaId": 2,
-        "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-        "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+        "titulo": "Evolução humana | Nerdologia Ensina 12",
+        "url": "https://www.youtube.com/watch?v=Comf5vc56zc"
       },
       {
         "id": 10,
         "categoriaId": 2,
-        "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-        "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        "titulo": "A ASCENSÃO DE THANOS: HISTÓRIA COMPLETA",
+        "url": "https://www.youtube.com/watch?v=RGZhFOIR7ss"
       },
       {
         "id": 11,
         "categoriaId": 2,
-        "titulo": "API: Dicionário do Programador",
-        "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        "titulo": "FILOSOFIA E SOCIOLOGIA -  Ep.1352",
+        "url": "https://www.youtube.com/watch?v=c9pfDBM6bic"
       },
       {
         "id": 12,
         "categoriaId": 2,
-        "titulo": "Usando Git Direito",
-        "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        "titulo": "A História por trás do 11 de Setembro / Nostalgia História",
+        "url": "https://www.youtube.com/watch?v=79YrLCTa91E"
       },
       {
         "id": 13,
         "categoriaId": 3,
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        "titulo": "Live - Notícias da Semana - Filmes Injustiçados",
+        "url": "https://www.youtube.com/watch?v=hoZIMqPU47Y"
       },
       {
         "id": 14,
         "categoriaId": 3,
-        "titulo": "O que é Data Science?",
-        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        "titulo": "Filmes e Séries que entrarão na Catálogo da Netflix em Agosto",
+        "url": "https://www.youtube.com/watch?v=RQvowHXMYo0"
       },
       {
         "id": 15,
         "categoriaId": 3,
-        "titulo": "Melhor forma de aprender Python",
-        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        "titulo": "NOVO BOB ESPONJA EM 3D!! Ursos sem Cursos O FILME | Notícias Animadas",
+        "url": "https://www.youtube.com/watch?v=Hodf2TNQalM"
       },
       {
         "id": 16,
         "categoriaId": 3,
-        "titulo": "Como ingressar no mercado de Data Science?",
-        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        "titulo": "SEM FILMES!!! JOHN CENA E THE ROCK RETORNANDO? RANDY ORTON WWE CHAMPION E ADAM COLE NO MAIN ROSTER.",
+        "url": "https://www.youtube.com/watch?v=dAAW8q64Zic"
       },
       {
         "id": 17,
         "categoriaId": 4,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        "titulo": "MEU NOVO PROGRAMA DE NOTÍCIAS DE GAMES",
+        "url": "https://www.youtube.com/watch?v=AxGTlqM5CV8",
+        "description": "Não adianta, eu gosto mesmo é fazer programa de notícias de games! E atendendo a pedidos, elas estão de volta – mas de um jeito um pouco diferente."
       },
       {
         "id": 18,
         "categoriaId": 4,
-        "titulo": "Gattaca",
-        "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        "titulo": "Péssimas notícias sobre o GTA 6 (Só que tem um porém)",
+        "url": "https://www.youtube.com/watch?v=n2qbJH5EqVw"
       },
       {
         "id": 19,
         "categoriaId": 4,
-        "titulo": "A Chegada",
-        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        "titulo": "State of Play ESPECIAL Agosto / Começo do fim da Warner Games / Spider-man dos Vingadores EXCLUSIVO",
+        "url": "https://www.youtube.com/watch?v=Ggj7smWC_Aw"
       },
       {
         "id": 20,
         "categoriaId": 4,
-        "titulo": "Feitiço do Tempo",
-        "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        "titulo": "Youtube muda política para monetizar videos de GAMES, FINALMENTE BOAS NOTÍCIAS",
+        "url": "https://www.youtube.com/watch?v=zwlu_CwpbUs"
       },
       {
         "id": 21,
         "categoriaId": 5,
-        "titulo": "Final Fantasy 7",
-        "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        "titulo": "STRANGER THINGS É NOVELA DE CRIANÇA | Choque de Cultura",
+        "url": "https://www.youtube.com/watch?v=oo8iJFaK_yM"
       },
       {
         "id": 22,
         "categoriaId": 5,
-        "titulo": "Assassins Creed Valhalla",
-        "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        "titulo": "FALAÍ - Cultura Nerd",
+        "url": "https://www.youtube.com/watch?v=csFSSplK8dI"
       },
       {
         "id": 23,
         "categoriaId": 5,
-        "titulo": "God of War 4",
-        "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        "titulo": "Afinal, o que é ser nerd? Diego e Cris batem um papo para tentar entender esse conceito e revelam suas \"nerdices\"",
+        "url": "https://www.youtube.com/watch?v=66wrwqRIpSA"
       },
       {
         "id": 24,
         "categoriaId": 5,
-        "titulo": "Resident Evil 8",
-        "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        "titulo": "Ser nerd está na moda, deixou de ser um apelido pejorativo para indicar indivíduos que possuem conhecimento específico sobre diversos assuntos da cultura ...",
+        "url": "https://www.youtube.com/watch?v=imI7rQ-CRpM"
+      },
+      {
+        "id": 24,
+        "categoriaId": 5,
+        "titulo": "Entrevista: Jovem Nerd",
+        "url": "https://www.youtube.com/watch?v=9n7mW9cylXM"
       }
     ]
   }
