@@ -3,9 +3,10 @@ import PageDefault from '../../components/PageDefault';
 import styled from 'styled-components';
 
 const Canvas = styled.iframe`
+  align-content: center;
   position: center;
-  width: 100%;
-  height: 70%;
+  width: 744px;
+  height: 364px;
   max-height: 360;
 `;
 
