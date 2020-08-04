@@ -16,36 +16,45 @@
       },
       {
         "id": 3,
-        "titulo": "Filmes"
+        "titulo": "Filmes",
+        "link_extra": {
+          "text": "Lançamentos e recomendados"
+        }
       },
       {
         "id": 4,
-        "titulo": "Games"
+        "titulo": "Games",
+        "link_extra": {
+          "text": "Mais aclamados e aguardados"
+        }
       },
       {
         "id": 5,
-        "titulo": "Descontração"
+        "titulo": "Descontração",
+        "link_extra": {
+          "text": "Pra deixar o dia mais leve"
+        }
       }
     ],
     "videos": [
       {
         "id": 1,
         "categoriaId": 1,
-        "titulo": "NOVA TECNOLOGIA QUE VAI MUDAR O MUNDO QUE CONHECEMOS HOJE",
-        "url": "https://www.youtube.com/watch?v=spORBPLpuQ8",
-        "description": "Elon Musk anuncia Neuralink, sensores cerebrais para controlar dispositivos Elon Musk é famoso por trazer o “futurismo” para o presente. Ao lado de carros ..."
+        "titulo": "HACKEARAM O SEU CÉREBRO",
+        "url": "https://www.youtube.com/watch?v=_hobgOFDekg",
+        "description": "Eu sou completamente viciado em jogos e é engraçado porque eu sempre me orgulhei de fazer 100% do Super Mario, conseguir resolver os puzzles do Zelda..."
       },
       {
         "id": 2,
         "categoriaId": 1,
-        "titulo": "BRASIL tem a tecnologia mais MODERNA DO MUNDO!",
-        "url": "https://www.youtube.com/watch?v=aKAkniQ8qVU"
+        "titulo": "NOVA TECNOLOGIA QUE VAI MUDAR O MUNDO QUE CONHECEMOS HOJE",
+        "url": "https://www.youtube.com/watch?v=spORBPLpuQ8"
       },
       {
         "id": 3,
         "categoriaId": 1,
-        "titulo": "Perspectivas sobre a ciência e a tecnologia no Brasil | Carlos Henrique de Brito Cruz | TEDxUNIFESP",
-        "url": "https://www.youtube.com/watch?v=a-8Sf1hUtBk"
+        "titulo": "Inventos Tecnologicos A Otro Nivel | 2020 | Innovacion Tecnologica #2",
+        "url": "https://www.youtube.com/watch?v=TBAo3ZHW-JI"
       },
       {
         "id": 4,
@@ -87,8 +96,8 @@
       {
         "id": 10,
         "categoriaId": 2,
-        "titulo": "A ASCENSÃO DE THANOS: HISTÓRIA COMPLETA",
-        "url": "https://www.youtube.com/watch?v=RGZhFOIR7ss"
+        "titulo": "A vida de Tolkien e o mundo de Senhor dos Anéis | Nerdologia",
+        "url": "https://www.youtube.com/watch?v=dmBgBTMpC6A"
       },
       {
         "id": 11,
@@ -105,14 +114,14 @@
       {
         "id": 13,
         "categoriaId": 3,
-        "titulo": "Live - Notícias da Semana - Filmes Injustiçados",
-        "url": "https://www.youtube.com/watch?v=hoZIMqPU47Y"
+        "titulo": "ASSISTI BAD BOYS PARA SEMPRE: VALE A PENA?",
+        "url": "https://www.youtube.com/watch?v=yOLybEtIVMU"
       },
       {
         "id": 14,
         "categoriaId": 3,
-        "titulo": "Filmes e Séries que entrarão na Catálogo da Netflix em Agosto",
-        "url": "https://www.youtube.com/watch?v=RQvowHXMYo0"
+        "titulo": "Crítica sem spoilers: filme TOLKIEN",
+        "url": "https://www.youtube.com/watch?v=a6TcwKO3WLk"
       },
       {
         "id": 15,
@@ -123,21 +132,21 @@
       {
         "id": 16,
         "categoriaId": 3,
-        "titulo": "SEM FILMES!!! JOHN CENA E THE ROCK RETORNANDO? RANDY ORTON WWE CHAMPION E ADAM COLE NO MAIN ROSTER.",
-        "url": "https://www.youtube.com/watch?v=dAAW8q64Zic"
+        "titulo": "VIÚVA NEGRA Ultimo Trailer Português LEGENDADO # 3",
+        "url": "https://www.youtube.com/watch?v=HmmrtZHgh6o"
       },
       {
         "id": 17,
         "categoriaId": 4,
-        "titulo": "MEU NOVO PROGRAMA DE NOTÍCIAS DE GAMES",
-        "url": "https://www.youtube.com/watch?v=AxGTlqM5CV8",
-        "description": "Não adianta, eu gosto mesmo é fazer programa de notícias de games! E atendendo a pedidos, elas estão de volta – mas de um jeito um pouco diferente."
+        "titulo": "THE LAST OF US 2 : VALE OU NAO A PENA JOGAR!?",
+        "url": "https://www.youtube.com/watch?v=wctBnn5KqL0",
+        "description": "Análise Completa. Instagram : @zangs_ Twitter : @zangadogames Baixe o APP para mais conteúdo: Web: ..."
       },
       {
         "id": 18,
         "categoriaId": 4,
-        "titulo": "Péssimas notícias sobre o GTA 6 (Só que tem um porém)",
-        "url": "https://www.youtube.com/watch?v=n2qbJH5EqVw"
+        "titulo": "MINHA OPINIÃO SINCERA APÓS JOGAR ASSASSIN'S CREED VALHALLA",
+        "url": "https://www.youtube.com/watch?v=X7-97wvewNY"
       },
       {
         "id": 19,
@@ -148,8 +157,8 @@
       {
         "id": 20,
         "categoriaId": 4,
-        "titulo": "Youtube muda política para monetizar videos de GAMES, FINALMENTE BOAS NOTÍCIAS",
-        "url": "https://www.youtube.com/watch?v=zwlu_CwpbUs"
+        "titulo": "TUDO SOBRE O NOVO MMORPG DA AMAZON – NEW WORLD",
+        "url": "https://www.youtube.com/watch?v=y6-CIlt_tXM"
       },
       {
         "id": 21,
@@ -160,26 +169,26 @@
       {
         "id": 22,
         "categoriaId": 5,
-        "titulo": "FALAÍ - Cultura Nerd",
-        "url": "https://www.youtube.com/watch?v=csFSSplK8dI"
+        "titulo": "RETARDO FALADO! #2 - Matheus Canella",
+        "url": "https://www.youtube.com/watch?v=eV5FSab0pdk"
       },
       {
         "id": 23,
         "categoriaId": 5,
-        "titulo": "Afinal, o que é ser nerd? Diego e Cris batem um papo para tentar entender esse conceito e revelam suas \"nerdices\"",
-        "url": "https://www.youtube.com/watch?v=66wrwqRIpSA"
+        "titulo": "SE EU MORRER, ME ENTERRE NA ITÁLIA",
+        "url": "https://www.youtube.com/watch?v=aWjrPV4l1yQ"
       },
       {
         "id": 24,
         "categoriaId": 5,
-        "titulo": "Ser nerd está na moda, deixou de ser um apelido pejorativo para indicar indivíduos que possuem conhecimento específico sobre diversos assuntos da cultura ...",
-        "url": "https://www.youtube.com/watch?v=imI7rQ-CRpM"
+        "titulo": "Só 5 minutinhos de POWER",
+        "url": "https://www.youtube.com/watch?v=_uCTkGXnm3g"
       },
       {
         "id": 24,
         "categoriaId": 5,
-        "titulo": "Entrevista: Jovem Nerd",
-        "url": "https://www.youtube.com/watch?v=9n7mW9cylXM"
+        "titulo": "BABY YODA + PLATEIA + LEILÃO DE ILUSTRAÇÃO = COMIC COMEDY: Show de Comédia Geek | André Santi",
+        "url": "https://www.youtube.com/watch?v=6aDaf-hl0EU"
       }
     ]
   }

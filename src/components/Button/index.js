@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Button = styled.button`
     color: var(--white);
-    border: 1px solid var(--white);
-    background-color: var(--black);
+    border: 2px solid var(--primary);
+    background-color: var(--prymary);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -14,12 +14,11 @@ const Button = styled.button`
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity 0.3s;
-    opacity: 0.7;
+    transition: opacity 1;
     
     &:hover,
     &:focus {
-    opacity: 1;
+    opacity: 0.6;
     }
 `;
 

@@ -9,6 +9,7 @@ export const ContentAreaContainer = styled.section`
   justify-content: center;
   position: relative;
   z-index: 10;
+  border-radius: 0px;
   @media (max-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
@@ -72,7 +73,7 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 0;
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -92,7 +93,7 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 0px;
     background: rgba(0,0,0,0.5);
   }
 
@@ -102,7 +103,7 @@ export const BannerMainContainer = styled.section`
   }
 `;
 
-export const WatchButton = styled.button`
+export const WatchButton = styled.a`
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   cursor: pointer;
@@ -122,6 +123,35 @@ export const WatchButton = styled.button`
   display: none;
   margin: 0 auto;
   @media (max-width: 800px) {
-    display: block;
-  }
+   display: block;
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   height: 10px;
+   line-height: 0px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   width: 120px;
+   font-size: 40px;
+   font-weight: 900;
+   padding: 36px;
+   background-color: rgba(50, 50, 50, 0.87);
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   cursor: pointer;
+   text-align: center;
+   border: none;
+}
+
+ :hover {
+   background: rgba(219, 0, 0, 0.95);
+   border: solid #DD380D 0px;
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   text-decoration: none;
+}
 `;

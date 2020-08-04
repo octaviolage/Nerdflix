@@ -1,6 +1,6 @@
 import React from 'react';
-import PageDefault from '../../components/PageDefault';
 import styled from 'styled-components';
+import PageDefault from '../../components/PageDefault';
 
 const Canvas = styled.iframe`
   align-content: center;

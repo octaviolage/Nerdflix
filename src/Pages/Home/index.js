@@ -5,12 +5,12 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categories';
+import Loading from '../../assets/img/loading.gif';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
-    // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos[0].videos[0]);
@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && (<div><img src={Loading} width="80px" alt="Loading..." /></div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

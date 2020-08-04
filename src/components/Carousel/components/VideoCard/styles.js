@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
   width: 298px;
@@ -45,3 +45,5 @@ export const VideoCardContainer = styled.a`
     }
   }
 `;
+
+export default VideoCardContainer;

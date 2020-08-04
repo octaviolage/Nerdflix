@@ -37,7 +37,7 @@ justify-content: center;
 }
 
 body {
---bodyPaddingTop: 40px;
+--bodyPaddingTop: 50px;
 padding-top: var(--bodyPaddingTop);
 }
 }
@@ -74,5 +74,6 @@ background: var(--primary);
 border-radius: 0;
 border: 0;
 text-align: center;
+color: var(--white);
 }
 }
