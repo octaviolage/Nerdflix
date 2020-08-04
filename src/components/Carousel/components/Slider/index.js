@@ -12,18 +12,25 @@ const Container = styled.ul`
     bottom: 0;
     margin: auto;
     width: 30px;
-    height: 30px;
+    height: 300px;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 50px;
+      font-family: 'Red Hat Display', sans-serif;
     }
   }
   
   .slick-prev {
-    left: 0;
+    left: 10px;
+    &:before {
+      content: "<";
+    }
   }
   .slick-next {
-    right: 16px;
+    right: 10px;
+    &:before {
+      content: ">";
+    }
   }
 `;
 

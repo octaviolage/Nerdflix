@@ -1,29 +1,29 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
-	box-shadow: 0px 0px 4px -5px #00a61c;
-	border-top-left-radius:0px;
-	border-top-right-radius:14px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:14px;
+  box-shadow: 0px 0px 4px -5px #00a61c;
+  border-top-left-radius:0px;
+  border-top-right-radius:14px;
+  border-bottom-right-radius:0px;
+  border-bottom-left-radius:14px;
 text-indent:0;
-	border:2px solid #045c01;
-	display:inline-block;
-	color:#ebebeb;
-	font-family:arial;
-	font-size:15px;
-	font-weight:bold;
-	font-style:normal;
+  border:2px solid #045c01;
+  display:inline-block;
+  color:#ebebeb;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
 height:50px;
-	line-height:50px;
+  line-height:50px;
 width:140px;
-	text-decoration:none;
-	text-align:center;
+  text-decoration:none;
+  text-align:center;
 }.classname:hover {
-	background-color:#000000;
+  background-color:#000000;
 }.classname:active {
-	position:relative;
-	top:1px;
+  position:relative;
+  top:1px;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -64,5 +64,6 @@ export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
   margin-left: 5%;
+  margin-right: 3%;
   margin-bottom: 16px;
 `;
